@@ -5,6 +5,8 @@ import { cn } from "@repo/ui/utils";
 import { Providers, ThemeProvider } from "../components/Providers";
 import NextTopLoader from "nextjs-toploader";
 
+import { getServerSession } from "next-auth";
+import { redirect } from 'next/navigation'
 // core styles shared by all of react-notion-x (required)
 import "react-notion-x/src/styles.css";
 // used for code syntax highlighting (optional)

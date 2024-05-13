@@ -130,6 +130,7 @@ export async function createTrackProblems(data: any) {
 }
 
 export async function getTrack(trackId: string) {
+  console.log('control is here')
   try {
     const track = await db.track.findUnique({
       where: {

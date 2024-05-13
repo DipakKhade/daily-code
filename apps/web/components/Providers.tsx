@@ -8,6 +8,7 @@ import { SessionProvider } from "next-auth/react";
 import { Toaster } from "@repo/ui/toaster";
 
 export const Providers = ({ children }: { children: React.ReactNode }) => {
+
   return (
     <SessionProvider>
       <RecoilRoot>
